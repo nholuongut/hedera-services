@@ -1,0 +1,12 @@
+                                          #############################
+                                          #    Gossip / Networking    #
+                                          #############################
+
+sync.syncProtocolPermitCount,                  4                            # differs from mainnet
+
+                                          #############################
+                                          #           State           #
+                                          #############################
+
+state.mainClassNameOverride,                   com.hedera.services.ServicesMain
+

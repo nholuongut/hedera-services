@@ -1,0 +1,33 @@
+                                          #############################
+                                          #    Gossip / Networking    #
+                                          #############################
+
+sync.syncProtocolPermitCount,                  2                            # differs from mainnet
+
+                                          #############################
+                                          #           State           #
+                                          #############################
+
+state.saveStatePeriod,                         30                          # differs from mainnet
+state.mainClassNameOverride,                   com.hedera.services.ServicesMain
+
+                                          #############################
+                                          #          Events           #
+                                          #############################
+
+event.enableEventStreaming,                    false                        # differs from mainnet
+
+                                          #############################
+                                          #          Metrics          #
+                                          #############################
+
+metrics.csvFileName,                           MainNetStats
+metrics.csvOutputFolder,                       data/stats
+showInternalStats,                             true
+prometheus.endpointEnabled,                    true                        # differs from mainnet
+
+                                          #############################
+                                          #          Security         #
+                                          #############################
+
+loadKeysFromPfxFiles,                          false                        # differs from mainnet

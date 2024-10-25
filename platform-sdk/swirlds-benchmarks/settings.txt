@@ -1,0 +1,13 @@
+benchmark.benchmarkData,                       data
+benchmark.saveDataDirectory,                   false
+benchmark.verifyResult,                        true
+benchmark.enableSnapshots,                     false
+benchmark.printHistogram,                      false
+benchmark.csvOutputFolder,                     data
+benchmark.csvWriteFrequency,                   1000
+benchmark.csvAppend,                           true
+virtualMap.flushInterval,                      20
+virtualMap.preferredFlushQueueSize,            1
+virtualMap.flushThrottleStepSize,              500ms
+merkleDb.hashesRamToDiskThreshold,             8388608
+

@@ -1,0 +1,32 @@
+                                          #############################
+                                          #    Gossip / Networking    #
+                                          #############################
+
+sync.syncProtocolPermitCount,                  2                            # differs from mainnet
+
+                                          #############################
+                                          #           State           #
+                                          #############################
+
+state.saveStatePeriod,                         300                          # differs from mainnet
+state.signedStateDisk,                         3                            # differs from mainnet
+state.mainClassNameOverride,                   com.hedera.services.ServicesMain
+
+                                          #############################
+                                          #          Events           #
+                                          #############################
+
+event.enableEventStreaming,                    false                        # differs from mainnet
+event.creation.maxCreationRate,                20
+
+                                          #############################
+                                          #          Metrics          #
+                                          #############################
+
+prometheus.endpointEnabled,                    false                        # differs from mainnet
+
+                                          #############################
+                                          #           Misc            #
+                                          #############################
+
+loadKeysFromPfxFiles,                          false                        # differs from mainnet

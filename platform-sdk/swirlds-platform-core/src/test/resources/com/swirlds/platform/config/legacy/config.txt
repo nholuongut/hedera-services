@@ -1,0 +1,38 @@
+###############################################################################################
+# UPDATING THIS FILE:
+# This file is used by LegacyConfigPropertiesLoaderTest.java unit tests.
+# Updates should stay in sync with this test.
+# Refer to the config.txt in the Platform SDK for pattern of use.
+###############################################################################################
+
+###############################################################################################
+# Swirlds configuration file, for automatically running multiple instances
+###############################################################################################
+swirld, 123
+
+# app,		HelloSwirldDemo.jar
+# app,		CryptocurrencyDemo.jar
+ app,		StatsDemo.jar,		   1, 3000, 0, 100, -1, 200
+
+
+# ** BEGIN REMOVE FROM SDK RELEASES **
+# app,		StatsSigningTestingTool.jar,  1, 3000, 0, 100, -1, 1000, 5000
+# app,		StatsRandomTestingTool.jar,  0, 3000, 0, 100, -1, 250000, 5000, 1, 10	0, 1024
+# app,		StatsSeqTestingTool.jar,	   1, 3000, 1000, 100, 16, -1
+# app,		FCMStatsTestingTool.jar,	 signed, syncDelay, transPerEventMax, transPerSecToCreate
+# app,		FCMStatsTestingTool.jar,		 0,      0,         -1,               250
+# app,		PlatformTestingTool.jar, FCMFCQ-Basic-1k-10m.json
+# app,		MigrationTestingTool.jar, 4685095852903873060, 5000,	4
+# app,      ISSTestingTool.jar, 10000, 60:0-1+2+3, 120:0-1-2+3
+# ** END REMOVE FROM SDK RELEASES **
+
+ address, 1, A, Alice,    1, 127.0.0.1, 15301, 127.0.0.1, 15301, has a memo
+ address, 3,  B, Bob,      1, 127.0.0.1, 15302, 127.0.0.1, 15302 # comment
+ address, 20,  C, Carol,    1, 127.0.0.1, 15303, 127.0.0.1, 15303, has a memo # and a comment
+ address, 95,  D, Dave,     1, 127.0.0.1, 15304, 127.0.0.1, 15304
+# address, 96,  E, Eric,     1, 127.0.0.1, 15305, 127.0.0.1, 15305
+# address, 97,  F, Fred,     1, 127.0.0.1, 15306, 127.0.0.1, 15306
+# address, 98,  G, Gina,     1, 127.0.0.1, 15307, 127.0.0.1, 15307
+# address, 99,  H, Hank,     1, 127.0.0.1, 15308, 127.0.0.1, 15308
+
+nextNodeId, 96

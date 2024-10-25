@@ -1,0 +1,15 @@
+merkleDb.maxNumOfKeys, 250000000
+merkleDb.hashesRamToDiskThreshold, 1
+merkleDb.moveListChunkSize, 250000
+merkleDb.maxRamUsedForMergingGb, 15
+merkleDb.iteratorInputBufferBytes, 500000000
+merkleDb.writerOutputBufferBytes, 500000000
+merkleDb.maxDataFileBytes, 500000000
+merkleDb.maxNumberOfFilesInMerge, 128
+merkleDb.minNumberOfFilesInCompaction, 16
+merkleDb.reconnectKeyLeakMitigationEnabled, true
+merkleDb.keySetBloomFilterHashCount, 15
+merkleDb.keySetBloomFilterSizeInBytes, 300000000
+merkleDb.keySetHalfDiskHashMapSize, 200000000
+merkleDb.keySetHalfDiskHashMapBuffer, 200000000
+merkleDb.indexRebuildingEnforced, true
