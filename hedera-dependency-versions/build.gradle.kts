@@ -191,7 +191,7 @@ dependencies.constraints {
     api("org.junit.jupiter:junit-jupiter-api:5.10.2") {
         because("org.junit.jupiter.api")
     }
-    api("org.junit-pioneer:junit-pioneer:2.0.1") {
+    api("org.junit-pioneer:junit-pioneer:2.3.0") {
         because("org.junitpioneer")
     }
     api("org.mockito:mockito-core:5.8.0") {
