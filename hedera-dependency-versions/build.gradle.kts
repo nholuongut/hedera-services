@@ -146,7 +146,7 @@ dependencies.constraints {
     api("org.apache.commons:commons-lang3:3.14.0") {
         because("org.apache.commons.lang3")
     }
-    api("org.apache.commons:commons-compress:1.26.0") {
+    api("org.apache.commons:commons-compress:1.27.1") {
         because("org.apache.commons.compress")
     }
     api("org.apache.logging.log4j:log4j-api:2.21.1") {
