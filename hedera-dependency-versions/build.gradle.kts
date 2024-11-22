@@ -203,10 +203,10 @@ dependencies.constraints {
     api("org.opentest4j:opentest4j:1.2.0") {
         because("org.opentest4j")
     }
-    api("org.testcontainers:testcontainers:1.17.2") {
+    api("org.testcontainers:testcontainers:1.20.4") {
         because("org.testcontainers")
     }
-    api("org.testcontainers:junit-jupiter:1.17.2") {
+    api("org.testcontainers:junit-jupiter:1.20.4") {
         because("org.testcontainers.junit.jupiter")
     }
     api("org.yaml:snakeyaml:2.2") {
