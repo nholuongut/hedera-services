@@ -185,7 +185,7 @@ dependencies.constraints {
     api("org.hyperledger.besu:secp256k1:0.8.2") {
         because("org.hyperledger.besu.nativelib.secp256k1")
     }
-    api("org.json:json:20231013") {
+    api("org.json:json:20241224") {
         because("org.json")
     }
     api("org.junit.jupiter:junit-jupiter-api:5.10.2") {
