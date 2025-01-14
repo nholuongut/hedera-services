@@ -19,7 +19,7 @@ plugins {
 }
 
 dependencies {
-    api(enforcedPlatform("io.netty:netty-bom:4.1.110.Final"))
+    api(enforcedPlatform("io.netty:netty-bom:4.1.117.Final"))
 
     // Force commons compress version to close a security vulnerability
     api(javaModuleDependencies.gav("org.apache.commons.compress"))
