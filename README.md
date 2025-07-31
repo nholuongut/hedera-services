@@ -55,7 +55,7 @@ expected to uphold this code of conduct.
 * If you find this repository helpful, kindly consider showing your appreciation by giving it a star ⭐ Thanks! 💖
 
 ![](https://i.imgur.com/waxVImv.png)
-![](Donate.png)
+![](Donate.jpg)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nholuong)
 
 # License
