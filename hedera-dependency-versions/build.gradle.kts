@@ -200,7 +200,7 @@ dependencies.constraints {
     api("org.mockito:mockito-junit-jupiter:5.8.0") {
         because("org.mockito.junit.jupiter")
     }
-    api("org.opentest4j:opentest4j:1.2.0") {
+    api("org.opentest4j:opentest4j:1.3.0") {
         because("org.opentest4j")
     }
     api("org.testcontainers:testcontainers:1.17.2") {
